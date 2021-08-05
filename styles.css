@@ -1,0 +1,119 @@
+:root{
+--fuentePrincipal: 'Comic Neue', cursive;
+}
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before
+*::after{
+    box-sizing: inherit;
+}
+body{
+    background-image: url(./img/background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: var(--fuentePrincipal);
+}
+a{
+    font-size: 1.3rem;
+    color:#fff;
+    text-decoration: none;
+    border-radius: 1rem;
+    padding: 0.5rem 2rem;   
+}
+p{
+    margin-top: 2rem;
+}
+
+.container-first{
+    background-color: #145A32;
+    display: flex;
+    justify-content: space-between;
+    max-width: 150rem;
+    width: 100%;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    margin-top: 0%;
+    justify-content: space-between;
+    width: 57%;
+}
+.header-nav a{
+    color: #767171;
+    transition: all 0.3s ease-in-out;
+}
+.container-first p{
+    font-size: 1.8rem;
+}
+
+.container-first p h2{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.container-second{
+    margin-top: 5rem;
+   text-align: center;
+}
+.logo{
+    color: #fff;
+    font-weight: bold;
+}
+.logo p{
+    margin-left: 3rem;
+    font-size: 2rem;
+    text-align: center;
+}
+.logo h2{
+    font-size: 2.6rem;
+    text-align: center;
+    font-weight: bold
+}
+.container-second h2{
+    font-size: 3.8em;
+}
+.container-second p{
+    font-size: 1.5rem;
+}
+.button{
+    padding: 1rem 2rem;
+    margin: 0;
+    text-align: center;
+    color: #ffff;
+    background-color: #145A32;
+    width: 15rem;
+}
+.button a{
+    font-size: 1rem;
+}
+
+.redes a{
+    color: #145A32;
+    text-align: right;
+    max-width: 1rem;
+    width: 100%;
+    margin: 0%;
+}
+.redes{
+    margin-top: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a:hover{
+    background-color: #fff;
+    color: #145A32;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.button:hover{
+    background-color: #145A32;
+    opacity: 0.7;
+    color: #fff;
+}
